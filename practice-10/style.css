@@ -1,0 +1,6 @@
+body {
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    }
