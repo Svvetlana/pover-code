@@ -41,3 +41,4 @@ function search(str) {
 }
 
 console.log(search('b'));
+// console.log(search('lorem'));
