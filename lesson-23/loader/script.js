@@ -1,6 +1,6 @@
 function download() {
     const xhr = new XMLHttpRequest();
-    xhr.open("get", "http://127.0.0.1.:5501/fetch.mp4")
+    xhr.open("get", "http://127.0.0.1:5500/lesson-23/loader/fetch.mp4")
     xhr.onprogress = function ({ loaded }) {
         const max = (+xhr.getResponseHeader('content-length') / 1000000.toFixed(0);
         const current = (loaded / 1000000).toFixed;
